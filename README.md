@@ -1,2 +1,9 @@
-# SelfLearn-TF-VPC
-Setup AWS VPC and Security Group
+# Setup AWS VPC and Security Group
+
+### Terraform command use
+```
+  terraform init
+  terraform plan
+  terraform apply
+  terraform destroy
+```
