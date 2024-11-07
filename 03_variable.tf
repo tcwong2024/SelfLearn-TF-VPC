@@ -1,3 +1,9 @@
+variable "region" {
+  description = "The AWS region"
+  type        = string
+  default     = "us-east-1"
+}
+
 variable "vpc_name" {
   description = "Name of VPC to use"
   type        = string
@@ -25,12 +31,6 @@ variable "availability_zones" {
   description = "List of availability zones"
   type        = list(string)
   default     = ["us-east-1a", "us-east-1b", "us-east-1c"]
-}
-
-variable "region" {
-  description = "The AWS region"
-  type        = string
-  default     = "us-east-1"
 }
 
 variable "internet_gateway" {
